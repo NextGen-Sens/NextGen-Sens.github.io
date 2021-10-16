@@ -3,9 +3,7 @@
 }
 */
 
-table {
-	width:  100px;
-}
+
 nav{
 	background-color:rgb(151, 166, 180);
 	height: 60px;
@@ -20,6 +18,7 @@ label.menu {
 	line-height: 59px; 
 	float:left;
 	margin-left:30px;
+
 }
 
 label.menu:hover{
@@ -33,11 +32,15 @@ label.logo {
 	line-height: 55px;
 	
 }
+
+
 table.beta,td.beta {
 	border-collapse: collapse;
-	padding: 15px 50px;	
-	width: 12%;
+	padding: 15px 50px;
+	width: 165px;	
 }
+
+
 td.beta a{
 	text-decoration: none;
 	color:white;
@@ -48,17 +51,56 @@ td.beta:hover {
 	border-bottom: solid 1.5px rgba(255, 255, 255, 0.37);
 	font-size: 17px;
 }
+
 table.beta{
 	background-color:rgb(69, 82, 85);
 }
 
 table.contact{
-		border-top: 10px solid rgb(151, 166, 180);
-		width:1425px;
-		border-bottom: 10px solid rgb(151, 166, 180);
-		border-collapse: collapse;
-	}
-/*	
+	border-top: 10px solid rgb(151, 166, 180);
+	width:1425px;
+	border-bottom: 10px solid rgb(151, 166, 180);
+	border-collapse: collapse;
+}
+
+
+
+#text1,
+table.beta,
+#photo1{
+	float:left;
+}
+.tbod{
+	font-size: 20px;
+
+}
+#photo1{
+	margin-left: 40px;
+	
+}
+#text1{
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+#order{
+	display:inline-block;
+	border:1px solid black ;
+	padding: 10px 10px;
+	text-decoration:none;
+	background: rgb(157, 223, 240);
+	color:rgb(52, 16, 100);
+	border-radius:;
+	box-shadow:2px 2px 5px black;
+	text-align: center;
+	margin-top: 20%;
+	margin-left: 50%;
+}
+#order:hover {
+	box-shadow:3px 5px 6px black;
+}
+	/*	
 body {
 	font-family: : 'Arial';
 } */
