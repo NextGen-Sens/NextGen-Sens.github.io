@@ -3,6 +3,12 @@
 }
 */
 
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
 
 nav{
 	background-color:rgb(151, 166, 180);
@@ -12,7 +18,7 @@ nav{
 
 
 
-label.menu {
+#menu {
 	color: white;
 	font-size: 30px;
 	line-height: 59px; 
@@ -21,7 +27,7 @@ label.menu {
 
 }
 
-label.menu:hover{
+label#menu:hover{
 	font-size: 35px;
 	
 }
@@ -40,7 +46,6 @@ table.beta,td.beta {
 	width: 165px;	
 }
 
-
 td.beta a{
 	text-decoration: none;
 	color:white;
@@ -54,6 +59,7 @@ td.beta:hover {
 
 table.beta{
 	background-color:rgb(69, 82, 85);
+
 }
 
 table.contact{
@@ -95,7 +101,8 @@ table.beta,
 	box-shadow:2px 2px 5px black;
 	text-align: center;
 	margin-top: 20%;
-	margin-left: 50%;
+	margin-left: center;
+	font-size: 30px;
 }
 #order:hover {
 	box-shadow:3px 5px 6px black;
