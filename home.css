@@ -131,12 +131,30 @@
     color: #ffffff;
   }
 
+  .about-us div button {
+	  width: 200px;
+	  padding: 15px 0;
+	  text-align: center;
+	  margin: auto auto;
+	  border-radius: 25px;
+	  font-weight: bold;
+	  border: 2px solid #153B54;
+	  background: transparent;
+	  color: #fff;
+	  cursor: pointer;
+	  position: relative;
+	  overflow: hidden;
+  }
+
   .line {
-    width: 100%;
+    width: 55%;
     position: absolute;
-    top: 100%;
+    top: 150%;
     left: 2%;
     transform: translateY(-50%);
+  }
+
+  .line hr {
     border-top: 8px solid #ffffff;
     border-radius: 3px;
   }
@@ -177,6 +195,21 @@
     margin: 20px auto;
     line-height: 25px;
     color: #ffffff;
+  }
+
+  .features div button {
+	  width: 200px;
+	  padding: 15px 0;
+	  text-align: center;
+	  margin: auto auto;
+	  border-radius: 25px;
+	  font-weight: bold;
+	  border: 2px solid #153B54;
+	  background: transparent;
+	  color: #fff;
+	  cursor: pointer;
+	  position: relative;
+	  overflow: hidden;
   }
 
   .container {
