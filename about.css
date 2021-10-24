@@ -8,11 +8,7 @@
 	padding:0;
 	border:0;
 }
-.input{
-	box-sizing: border-box;
-	border-radius:20px;
-	border: black;
-}
+
 
 nav{
 	background-color:rgb(151, 166, 180);
@@ -21,9 +17,6 @@ nav{
 }
 
 
-body {
-	background-image: url("Images/orderback.png");
-  }
 
 #menu {
 	color: white;
@@ -45,22 +38,11 @@ label.logo {
 	line-height: 55px;
 	
 }
-.line{
-	width: 100%;
-	height: 47px;
-	border-bottom: 1px solid black;
-	font-size: 0;
-	margin-top:-35px;
-	
-	
-}
-
 
 table.beta,td.beta {
 	border-collapse: collapse;
 	padding: 15px 50px;
 	width: 165px;	
-	display: none;
 }
 
 td.beta a{
@@ -74,8 +56,10 @@ td.beta:hover {
 	font-size: 17px;
 }
 
+table.beta{
+	background-color:rgb(69, 82, 85);
 
-
+}
 
 table.contact{
 	border-top: 10px solid rgb(151, 166, 180);
@@ -85,35 +69,26 @@ table.contact{
 }
 
 
-
-
-img{
-	border-radius: 10px;
-}
+#text1,
 table.beta,
 #photo1{
 	float:left;
-	border-radius: 20px;
-	margin-top: 20px;
-	margin-left: 40px;
 }
 .tbod{
 	font-size: 20px;
-	margin-top: 40px;
 
 }
-
-#text1{
-	margin-left: 20px;
-	margin-top: 20px;
-	float: left;
-	width: 32%;
+#photo1{
+	margin-left: 40px;
 	
+}
+#text1{
+	margin-left: 30px;
+	margin-top: 30px;
 
 }
-#model {
-	border-spacing: 0 15px;
-}
+
+
 
 #order{
 	display:inline-block;
@@ -136,6 +111,32 @@ body {
 	font-family: : 'Arial';
 } */
 
+
+.maintext{
+	color: white;
+	padding-left: 40px;
+	margin-top: -121px;
+}
+
+.about-section{
+	text-align: center;
+	padding-right: 102px;
+}
+
+.links{
+	margin-top: 190px;
+	color: white;
+}
+
+.links a{
+	color: #2bdbfa;
+}
+
+.greet{
+	color: #2bdbfa;
+	padding-left: 337px;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -143,7 +144,7 @@ body {
   }
   .banner {
 	width: 100%;
-	height: 100vh;
+	height: 160vh;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
 	  url(Images/background.jpg);
 	background-size: cover;
@@ -152,20 +153,22 @@ body {
   .navbar {
 	width: 85%;
 	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 0px;
+	padding: 35px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
   }
   .logo {
-	width: 120px;
+	width: 180px;
+	position: absolute;
+	margin-top: 20px;
+	margin-right: 20px;
 	cursor: pointer;
   }
   .navbar ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0px 20px;
 	position: relative;
   }
   .navbar ul li a {
@@ -180,7 +183,7 @@ body {
 	background: #009688;
 	position: absolute;
 	left: 0;
-	bottom: -10;
+	top: 25px;
 	transition: 0.5s;
   }
   .navbar ul li:hover:after {
@@ -217,15 +220,6 @@ body {
 	  position: relative;
 	  overflow: hidden;
   }
-  .bg {
-    width: 100%;
-	height: 100vh;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-	  url(Images/IT-Support-Servcies.jpg);
-	background-size: cover;
-	background-position: center;             
-}
-}
   span{
 	  background: #009688;
 	  height: 100%;
