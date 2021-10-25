@@ -14,6 +14,14 @@
 	border: black;
 }
 
+.camera{
+	color:white;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-bottom: 1.8em
+}
+
 #price{
 	font-size: 14px;
 }
@@ -31,6 +39,20 @@ nav{
 	
 }
 
+#placement{
+	margin-left: 20%;
+
+}
+
+#image{
+	margin-top:40%;
+	margin-left: 3%;
+	border:solid;
+	border-width: 1px;
+	border-color:rgba(96, 24, 0, 0.59);
+	width:89%;
+
+}
 
 .hey{
 	background-image: url("Images/darkblue.jpg");
@@ -39,7 +61,6 @@ nav{
 #menuorder{
 	border:3px solid rgba(195, 195, 195, 0.743);
 	border-radius: 15px;
-	border-width: 1px;
 	width: 20%;
 	height:470px;
 	margin-top: 20px;
