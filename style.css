@@ -38,7 +38,7 @@ nav{
 
 #menuorder{
 	border:3px solid rgba(195, 195, 195, 0.743);
-	border-radius: 8px;
+	border-radius: 15px;
 	border-width: 1px;
 	width: 20%;
 	height:470px;
@@ -47,6 +47,8 @@ nav{
 	float:left;
 	text-align: left;
 	color:white;
+	border-color:rgba(96, 24, 0, 0.59);
+	border-width: 2px;
 }
 
 #menu {
