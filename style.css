@@ -14,16 +14,39 @@
 	border: black;
 }
 
+#price{
+	font-size: 14px;
+}
+
+#money{
+	font-size: 20px;
+	font-weight: bolder;
+	color:rgba(171, 69, 10, 0.904);
+}
+
 nav{
 	background-color:rgb(151, 166, 180);
 	height: 60px;
 	text-align: center;
 }
 
-
+/* Ww'll add a background later
 body {
 	background-image: url("Images/orderback.png");
   }
+*/ 
+#menuorder{
+	border:3px solid rgba(195, 195, 195, 0.743);
+	border-radius: 5px;
+	border-width: 1px;
+	width: 20%;
+	height:40%;
+	margin-top: 20px;
+	margin-left: 70px;
+	float:left;
+	text-align: left;
+
+}
 
 #menu {
 	color: white;
@@ -90,6 +113,7 @@ table.contact{
 img{
 	border-radius: 10px;
 }
+
 table.beta,
 #photo1{
 	float:left;
@@ -98,19 +122,75 @@ table.beta,
 	margin-left: 40px;
 }
 .tbod{
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 40px;
+	
+}
 
+#tbod{
+	word-spacing:15px;
+	font-size: 25px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 #text1{
 	margin-left: 20px;
 	margin-top: 20px;
 	float: left;
-	width: 32%;
-	
+	width: 40%;
+	color:black;
 
 }
+
+.top{
+	border-radius: 0;
+	margin-left:0;
+	color:white;
+	background-color:#06519d;
+	border-color:white;
+	width:100%;
+	
+}
+
+#buttom{
+	margin-top:40%;
+	margin-left: 0;
+	width: 100%;
+}
+
+
+th.content{
+	text-align: left;
+}
+tr.content{
+	margin-left: 0;	
+	text-align: left;
+
+}
+
+
+#buttom_cont{
+	width:100%;
+	margin-top: -1.5%;
+	text-align: center;
+	background-color: blue;
+}
+
+.content{
+	color:white;
+	background-color: blue;
+}
+
+#rating{
+	font-size: 15px;
+	color:chocolate;
+	font-weight: bolder;
+}
+
+tr.tbod>td {
+	padding-bottom: 0.5em;
+}
+
 #model {
 	border-spacing: 0 15px;
 }
