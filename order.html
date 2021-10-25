@@ -1,69 +1,149 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
+    <div class="hey">
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <nav>
-        <!-- for evrything at the very top-->
-        <label class=logo> NextGen Sens</label>
-        <label id="menu" > ☰ </label>
-        
-        <!-- table for home, services...-->
-        </nav>
-    
-        <table class="beta"> 
-            <tr>
-                <td class="beta"><a href="#" >Home</a></td>
-            </tr>
-            <tr>
-                <td class="beta"><a href="#" >About</a></td>
-            </tr>
-            <tr>
-                <td class="beta"><a href="#">Sercices</a></td>
-            </tr>
-            <tr>
-                <td class="beta"><a href="#">Contact</a></td>
-            </tr>
-            <tr>
-                <td class="beta"><a href="#">Feedback</a></td>
-            </tr>
-        </table>
-        <table id="photo1">
-            <tr>
-                <td><img id="photo"><img src="Images/hologram.png" height="480px" width="425px" border="1px"></td>
-            </tr>
-        </table>
-        <table id="text1">
-            <tr class="tbod">
-                <td>SmartRidge is a smart system that we implement on fridges that allow people to scan what ingredients are in there fridge and see what recipes </td>
-            </tr>
-            <tr class="tbod">
-                <td><h6>Rating:</h6> </td>
-            </tr>
-            <tr class="tbod">
-                <td><div class="line"></div></td>
-            </tr>
-            <tr class="tbod">
-                <td>Pice:</td>
-                <td>$5000</td>
-            </tr>
-            <tr class="tbod">
-                <td><div class="line"></div></td>
-            </tr>
-            <tr class="tbod">
-                <td><h5>Sowftware description</h5></td>
-            </tr>
-        </table>
-    
-    </head>
-</body>
-    
-
+            <nav>
+            <!-- for evrything at the very top-->
+            <label class=logo> NEXTGEN-SENS</label>
+            <label id="menu" > ☰ </label>
             
-    </body>
-<body>
+            <!-- table for home, services...-->
+            </nav>
+        
+            <table class="beta"> 
+                <tr>
+                    <td class="beta"><a href="#" >Home</a></td>
+                </tr>
+                <tr>
+                    <td class="beta"><a href="#" >About</a></td>
+                </tr>
+                <tr>
+                    <td class="beta"><a href="#">Sercices</a></td>
+                </tr>
+                <tr>
+                    <td class="beta"><a href="#">Contact</a></td>
+                </tr>
+                <tr>
+                    <td class="beta"><a href="#">Feedback</a></td>
+                </tr>
+            </table>
+            <table id="photo1">
+                <tr>
+                    <td><img id="photo"><img src="Images/hologram.png" height="480px" width="425px" border="1px"></td>
+                </tr>
+            </table>
+            <table id="text1">
+                <tr id="tbod" class="tbod">
+                    <td>
+                        <span> is a smart system that we implement on fridges that allow people to scan what ingredients are in there fridge and see what recipes </span>
+                    </td>
+                    
+                </tr>
+                <tr class="tbod" id="rating">
+                    <td>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half-full"></span> &nbsp; &nbsp;
+                        <span cellpacing="2px">20 000 ratings</span>
+                    </td>
+                </tr>
+                <tr class="tbod">
+                    <td><div class="line"></div></td>
+                </tr>
+                <tr class="tbod">
+                    <td>
+                        <span id="price"> Price: </span> &nbsp; 
+                        <span id="money"> $451.99</span>
+                    </td>
+                    
+                </tr>
+                <tr class="tbod">
+                    <td><div class="line"></div></td>
+                </tr>
+                <tr class="tbod">
+                    <td><h5>Sowftware description</h5></td>
+                </tr>
+            </table>
+            <table id="menuorder">
+                <tr>
+                    <td>
+                        <div>Hey</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div>Choose fridge</div>
+                        <div class="selected">Select fridge</div>
+                        <div class="slecbox">
 
-</body>
+                            <div class="option">
+                                <input type="radio" name="category" class="radio" id="first">
+                                <label for="first">First</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" name="category" class="radio" id="second">
+                                <label for="second">second</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" name="category" class="radio" id="third">
+                                <label for="third">third</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" name="category" class="radio" id="fourth">
+                                <label for="fourth">fourth</label>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+    
+        </head>
+        <body>
+            <table id="buttom"> 
+                <tr class="buttom">
+                    <td>
+                        <button class="top">Back to top</button>
+                    </td>
+                </tr>
+            </table>
+            <table id="buttom_cont">
+                <tr class="buttom">
+                    <th>Account</th>
+                    <th>Support</th>
+                    <th>Our compagny</th>
+                    <th>Partners</th>
+                </tr>
+                <tr>
+                    <td class="buttom">My account</td>
+                    <td>Tech support</td>
+                    <td>About</td>
+                    <td>Samsung</td>
+                </tr>
+                <tr class="buttom">
+                    <td>Order status</td>
+                    <td>Contact us</td>
+                    <td>Social Impact</td>
+                    <td>Dell</td>
+                </tr>
+                <tr class="buttom">
+                    <td>My products</td>
+                    <td>Tech support</td>
+                    <td>Perspectives</td>
+                    <td>UBSD</td>
+                </tr>
+            </table>
+
+                
+        </body>
+    </div>
 <html>
 
 <script type="text/javascript">
