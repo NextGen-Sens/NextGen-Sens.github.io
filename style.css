@@ -25,16 +25,16 @@
 }
 
 nav{
-	background-color:rgb(151, 166, 180);
-	height: 60px;
+	background-color:rgba(46, 37, 61, 0.819);
+	height: 70px;
 	text-align: center;
 }
 
-/* Ww'll add a background later
-body {
-	background-image: url("Images/orderback.png");
-  }
-*/ 
+
+.hey{
+	background-image: url("Images/darkblue.jpg");
+}
+
 #menuorder{
 	border:3px solid rgba(195, 195, 195, 0.743);
 	border-radius: 5px;
@@ -45,7 +45,7 @@ body {
 	margin-left: 70px;
 	float:left;
 	text-align: left;
-
+	color:white;
 }
 
 #menu {
@@ -54,6 +54,7 @@ body {
 	line-height: 59px; 
 	float:left;
 	margin-left:30px;
+	display:none;
 
 }
 
@@ -63,9 +64,13 @@ label#menu:hover{
 }
 
 label.logo {
-	color: rgb(2, 2, 2);
+	color: white;
 	font-size: 40px;
-	line-height: 55px;
+	font-weight: bold;
+	line-height: 65px;
+	font-family: 'Times New Roman', Times, serif;
+
+	
 	
 }
 .line{
@@ -124,6 +129,7 @@ table.beta,
 .tbod{
 	font-size: 18px;
 	margin-top: 40px;
+	color:white;
 	
 }
 
