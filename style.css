@@ -271,7 +271,7 @@ table.beta,
 	width: 200px;
 	height: auto;
 	background-color: rgba(65, 61, 61, 0.694);
-	border:1px solid rgba(65, 61, 61, 0.694);
+	border:0.1px solid rgba(65, 61, 61, 0.694);
 	border-radius: 7px;
 	
 }
@@ -311,7 +311,8 @@ table.beta,
 	position: absolute;
 	height: 100%;
 	z-index: -1;
-	border-radius: 7px;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
 	
 	
 }
@@ -328,7 +329,7 @@ table.beta,
 	
 }
 .start tr:nth-child(4) td section article.chart span:nth-child(2){
-	width: 5%;
+	width: 7%;
 	animation-delay:0;
 	
 }
@@ -338,7 +339,7 @@ table.beta,
 	
 }
 .start tr:nth-child(6) td section article.chart span:nth-child(2){
-	width: 2%;
+	width: 0%;
 	animation-delay:0;
 	
 }
@@ -350,13 +351,15 @@ table.beta,
 }
 .start{
 	width: 370px;
-	border:solid rgba(96, 24, 0, 0.59);
+	border:solid rgb(11, 34, 41);
 	border-radius: 10px;
 	height: 200px;
+	display:none;
+	background-color: rgba(46, 35, 63, 0.972);
 	
 }
 .stars{
-	color: rgb(59, 100, 157);	
+	color: rgba(255, 255, 255, 0.777);	
 }
 
 .space{
@@ -373,8 +376,11 @@ table.beta,
 	width: 45%;
 }
 
-#rating td span:hover + #order{
-	cursor: pointer;
+#text1:hover + .start{
+	position: absolute;
+	left: 33%;
+	top: 30%;
+	z-index: 3;
 	display: block;
 }
 
@@ -464,7 +470,7 @@ body {
 	  url(Images/background.jpg);
 	background-size: cover;
 	background-position: center;
-  }
+}
   .navbar {
 	width: 85%;
 	margin: auto;
@@ -473,22 +479,22 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-  }
+}
   .logo {
 	width: 120px;
 	cursor: pointer;
-  }
+}
   .navbar ul li {
 	list-style: none;
 	display: inline-block;
 	margin: 0 20px;
 	position: relative;
-  }
+}
   .navbar ul li a {
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
-  }
+}
   .navbar ul li::after {
 	content: "";
 	height: 3px;
@@ -498,10 +504,10 @@ body {
 	left: 0;
 	bottom: -10;
 	transition: 0.5s;
-  }
+}
   .navbar ul li:hover:after {
 	width: 100%;
-  }
+}
   .content {
 	width: 100%;
 	position: absolute;
@@ -509,17 +515,17 @@ body {
 	transform: translateY(-50%);
 	text-align: center;
 	color: #2bdbfa;
-  }
+}
   .content h1 {
 	font-size: 70px;
 	margin-top: 80px;
-  }
+}
   .content p {
 	margin: 20px auto;
 	font-weight: 100;
 	line-height: 25px;
-  }
-  button{
+}
+button{
 	  width: 200px;
 	  padding: 15px 0;
 	  text-align: center;
@@ -532,7 +538,7 @@ body {
 	  cursor: pointer;
 	  position: relative;
 	  overflow: hidden;
-  }
+}
   
 }
   span{
