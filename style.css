@@ -31,7 +31,7 @@
 .money{
 	font-size: 20px;
 	font-weight: bolder;
-	color:rgba(171, 69, 10, 0.904);
+	color:rgba(210, 105, 30, 0.875)!important;
 	margin-left:5px;
 	font-family:Georgia, 'Times New Roman', Times, serif
 }	
@@ -75,8 +75,17 @@ nav{
 	font-family:'Times New Roman', Times, serif;
 }
 
+#imp{
+	width: 30px;
+	margin-left: 4%;
+}
+
 .hey{
-	background-image: url("Images/darkblue.jpg");
+	background: linear-gradient(rgba(25, 98, 117, 0.7), rgba(21, 59, 84, 0.7)),
+    url(Images/redemtion.jpg);
+  	background-size: cover;
+  	background-position: center;
+	
 }
 
 #menuorder{
@@ -89,7 +98,6 @@ nav{
 	float:left;
 	text-align: left;
 	color:white;
-	border-color:rgba(96, 24, 0, 0.59);
 	border-width: 2px;
 }
 
@@ -166,16 +174,17 @@ label.logo {
 div.trial{
 	font-weight: bold;
 	font-size: 20px;
-	color:rgb(61, 89, 135);
+	color:#008c00!important;
 	text-decoration: underline;
+	margin-left:7.2px;
 }
 
 ul.trial{
-	margin-left: 30px;
-	margin-top: 20px;
+	margin-left: 20%;
+	margin-top: 15px;
 	font-size: 15px;
 	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	color:rgb(138, 97, 0);
+	color:#007900!important;
 	font-weight: bolder;
 
 }
@@ -221,7 +230,8 @@ table.contact{
 #transaction,
 #number{
 	text-decoration: none;
-	color:rgb(77, 100, 133);
+	color:rgba(26, 26, 26, 0.847);
+	font-size:16.5px;
 
 }
 img{
