@@ -78,11 +78,34 @@
                 <tr class="tbod">
                     <td><h4>Software description</h4></td>
                 </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                <span><img id="imp" src="Images/importance.png"></span>
+                                <span >Fridge supported: Inspired Living, Amana, Electrolux, Frigidaire, Kenmore, Haier, Inspired Living, </span>
+                                <span>Kitchen Aid</span>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
             </table>
             <table class="start">
-                <tr class="stars">
+                <tr class="stars" id="rating">
+                    <td class="review">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half-full"></span> &nbsp; &nbsp;
+                    </td>
+                    <td id="review">
+                        <span>4.7 out of 5</span>
+                    </td>
+                </tr>
+                <tr>
                     <td>
-                        Custumer review
+                        <br>
                     </td>
                 </tr>
 
@@ -184,12 +207,12 @@
                 </tr>
                 <tr>
                     <td>
-                        <button class="free">Free trial</button>
+                        <button class="free" onclick="myfonction" >Free trial</button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button class="order">Order Now</button>
+                        <button class="order"><a id="style" href="checkout.html">Order Now</a></button>
                     </td>
                 </tr>
                 <tr>
@@ -201,6 +224,21 @@
             </table>
         </head>
         <body>
+            <div id="download-box">
+                <span class="close">&times;</span>
+                <button type="button" class="btn">Download</button>
+                <div class="loading-box">
+                    <div class="downloading-box">
+                        <span id="load-bar"></span>
+                    </div>
+                    <h5>Downloading speed 1.5 Mbps</h5>
+                </div>
+                <div class="success">
+                    <svg class="check" width="25" height="25">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                </div>
+            </div>
             <table id="image" >
                 <tr>
                     <td class="camera">Camema placement:</td>
@@ -213,12 +251,35 @@
                     </td>
                 </tr>
             </table>     
-          
+        
+        <script type="text/javascript">
+            var span = document.querySelector(".close")
+            var div = document.querySelector("#download-box")
+            var btn = document.querySelector(".btn")
+            var free = document.querySelector(".free")
+            var loading_box = document.querySelector(".loading-box")
+            var load_bar = document.querySelector("#load-bar")
+            var success = document.querySelector(".success")
+
+            //on button click animation
+            btn.addEventListener("click", ()=>{
+                loading_box.style.bottom="0"
+                loading_box.style.height="100%"
+                load_bar.style.width="100%"
+                success.style.bottom="0"
+                success.style.height="100%"
+            })
+
+            free.addEventListener("click", ()=>{
+                div.style.display="block"
+            })
+
+            span.addEventListener("click", ()=>{ 
+                div.style.display="none"
+            })
+
+        </script>
+
         </body>
     </div>
 <html>
-
-<script type="text/javascript">
-
-document.getElementsByClassName("beta").style.display="none"; 
-</script>
