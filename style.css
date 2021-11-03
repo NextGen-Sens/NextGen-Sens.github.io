@@ -324,7 +324,7 @@ table.beta,
 
 #text1{
 	margin-left: 1%;
-	margin-top: 2.5%;
+	margin-top: 3.5%;
 	float: left;
 	width: 43%;
 	color:black;
@@ -463,7 +463,7 @@ ul{
 	height: 220px;
 	position: absolute;
 	left: 33%;
-	top: 30%;
+	top: 34.1%;
 	z-index: 3;
 	background-color: rgba(46, 35, 63, 0.972);
 	display: none;
@@ -494,13 +494,6 @@ ul{
 .start tr > td{
 	width: 45%;
 }
-
-
-
-/*#text1:hover + .start{
-	display: block;
-}*/
-
 
 
 .order:active{
