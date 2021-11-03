@@ -321,6 +321,8 @@
             </div>
   
             <script type="text/javascript">
+                var rating= document.querySelector("#rating")
+                var stats=document.querySelector(".start")
                 var span = document.querySelector(".close")
                 var div = document.querySelector("#download-box")
                 var btn = document.querySelector(".btn")
@@ -345,7 +347,13 @@
                 span.addEventListener("click", ()=>{ 
                     div.style.display="none"
                 })
+                rating.addEventListener("mouseover", ()=>{
+                    stats.style.display="block"
+                })
+                rating.addEventListener("mouseout", ()=>{
+                    stats.style.display="none"
 
+                })
             </script>
 
         </body>

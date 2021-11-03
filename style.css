@@ -457,13 +457,16 @@ ul{
 	margin-top:6px;
 }
 .start{
-	width: 370px;
+	width: 25%;
 	border:solid rgb(11, 34, 41);
 	border-radius: 10px;
 	height: 220px;
 	position: absolute;
-	display: none;
+	left: 33%;
+	top: 30%;
+	z-index: 3;
 	background-color: rgba(46, 35, 63, 0.972);
+	display: none;
 	
 }
 .stars{
@@ -494,22 +497,12 @@ ul{
 
 
 
-#text1:hover + .start{
-	position: absolute;
-	left: 33%;
-	top: 30%;
-	z-index: 3;
-	display: block;
-}
-
 /*#text1:hover + .start{
-	position: absolute;
-	left: 33%;
-	top: 30%;
-	z-index: 3;
 	display: block;
-}
-*/
+}*/
+
+
+
 .order:active{
 	transform: scale(0.9); 
 }
