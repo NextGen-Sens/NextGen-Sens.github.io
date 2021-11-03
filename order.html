@@ -42,7 +42,7 @@
             </table>
             <table id="photo1">
                 <tr>
-                    <td><img id="photo"><img src="Images/hologram.png" height="480px" width="520px" border="1px"></td>
+                    <td><img id="photo" src="Images/hologram.png" width="100%"></td>
                 </tr>
             </table>
             <table id="text1">
@@ -68,7 +68,7 @@
                 <tr class="tbod">
                     <td>
                         <span id="price"> Price: </span> &nbsp; 
-                        <span class="money"> $451.99</span>
+                        <span class="money"> $2500</span>
                     </td>
                     
                 </tr>
@@ -242,7 +242,7 @@
             <table id="menuorder">
                 <tr>
                     <td>
-                        <div id="money" class="money">$451.99</div>
+                        <div id="money" class="money">$2500</div>
                     </td>
                 </tr>
                 <tr class="trial">
@@ -321,6 +321,8 @@
             </div>
   
             <script type="text/javascript">
+                var rating= document.querySelector("#rating")
+                var stats=document.querySelector(".start")
                 var span = document.querySelector(".close")
                 var div = document.querySelector("#download-box")
                 var btn = document.querySelector(".btn")
@@ -345,7 +347,13 @@
                 span.addEventListener("click", ()=>{ 
                     div.style.display="none"
                 })
+                rating.addEventListener("mouseover", ()=>{
+                    stats.style.display="block"
+                })
+                rating.addEventListener("mouseout", ()=>{
+                    stats.style.display="none"
 
+                })
             </script>
 
         </body>
