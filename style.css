@@ -283,7 +283,7 @@ table.beta,
 #photo1{
 	float:left;
 	border-radius: 20px;
-	margin-top: 4%;
+	margin-top: 2.6%;
 	margin-left: 1.15%;
 	width:38%;
 	height:60%;
@@ -691,10 +691,6 @@ tr.tbod>td {
 #order:hover {
 	box-shadow:3px 5px 6px black;
 }
-	/*	
-body {
-	font-family: : 'Arial';
-} */
 
 *{
 	margin: 0;
