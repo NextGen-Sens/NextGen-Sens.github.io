@@ -218,6 +218,51 @@ div.trial{
 	margin-top:15px;
 }
 
+#comf{
+	background: linear-gradient(rgba(25, 98, 117, 0.7), rgba(21, 59, 84, 0.7)),
+    url(Images/redemtion.jpg);
+  	background-size: cover;
+  	background-position: center;
+	height: 100%;
+}
+.center{
+	position:absolute;
+	top:65%;
+	left: 35%;
+	color:white;
+}
+.center2{
+	position: absolute;
+	top: 72%;
+	left:38%;
+	color:white;
+}
+
+.footer{
+	position:absolute;
+	top:90%;
+	left: 0;
+	width: 100%;
+}
+.info{
+	position: absolute;
+	top:77%;
+	left:43.5%;
+	color:white;
+}
+.info2{
+	position: absolute;
+	top:82%;
+	left:45%;
+	color:white;
+}
+
+.mark{
+	position:absolute;
+	top:20%;
+	left:35%;
+}
+
 ul.trial{
 	margin-left: 20%;
 	margin-top: 15px;
