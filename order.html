@@ -16,6 +16,7 @@
                 </div>        
             </body>
             
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css">
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,6 +25,18 @@
             <label id="menu" > ☰ </label>
             
             <!-- table for home, services...-->
+            </nav>
+            <nav class="Down">
+                <div class="header1">NextGen</div>
+                <div class="texthe"> 
+                    Get 7 day free trial. 
+                </div>
+                <div class="texthe">
+                    All features will be available
+                </div>
+                <div>
+                    <button class="free" onclick="myfonction" type="button"><span id="span"></span>Free Trial</button>
+                </div>
             </nav>
         
             <table class="beta"> 
@@ -45,7 +58,11 @@
             </table>
             <table id="photo1">
                 <tr>
-                    <td><img id="photo" src="Images/burger.jpg" width="100%"></td>
+                    <td>
+                        <img id="photo" src="Images/food 3.jpg" width="23%">
+                        <img id="photo2" src="Images/fridge 1.jpg" width="20%">
+                        <img id="photo3" src="Images/GTGC-Cultural-Food-Suburbs.jpg" width="20%">
+                    </td>
                 </tr>
             </table>
             <table id="text1">
@@ -84,19 +101,21 @@
                 <tr>   
                     <td>
                         <div class="installation"> Order:</div>
-                        <div class="inst">Once the software has been brought, a technician</div>
-                        <div class="inst">will contact the customer within 3-4 business day</div>
-                        <div class="inst">in order to install the necessary hardware.</div> &nbsp;
+                        <div class="inst">
+                            Once the software has been brought, a technician will contact the customer 
+                            within 3-4 business day in order to install the necessary hardware.
+                        </div>
+                            &nbsp;
                     </td>
                 </tr>
                 <tr>  
                     <td>
                         <div class="installation">Pre-Ordered:</div> 
-                        <div class="inst">It is concluded that the customer has already </div> 
-                        <div class="inst">purchased a refrigerator with the built-in camera.</div>
-                        <div class="inst">Once the software has been brought, the customer</div>
-                        <div class="inst">will activate the code given to him once  </div>
-                        <div class="inst">the order has been validated. </div>
+                        <div class="inst">
+                            It is concluded that the customer has already 
+                            purchased a refrigerator with the built-in camera.Once the software has been brought, the customer
+                            will activate the code given to him once the order has been validated.
+                        </div> 
                     </td>
                 </tr>
                 <table class="start">
@@ -179,86 +198,8 @@
                     </tr>
     
                 </table> 
-                <table id="supported">
-                    <tr>
-                        <td>
-                            <span><img id="imp" src="Images/importance.png"></span>
-                            <span id="text">Fridge supported:</span>
-                            <ul>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Inspired Living</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>amana</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Electrolux</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Frigidaire</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Kenmore</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Haier</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Imspired</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Kitchen Aid</span>
-                                    </div> 
-                                </li>
-                                <li class="fridge_logo">
-                                    <div>
-                                        <span><img class="check" src="Images/check_mark.png"></span>
-                                        <span>Inspired</span>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </table>
+            
             <table id="menuorder">
-                <tr>
-                    <td>
-                        <div id="money" class="money">$2500</div>
-                    </td>
-                </tr>
-                <tr class="trial">
-                    <td>
-                        <div class="trial">Free trial:</div>
-                        <ul class="trial">
-                            <li>Get 7 day free trial</li>
-                            <li>Offer last 1 month</li>
-                            <li>All features will be display</li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <span class="spacing" id="select">Quantity:</span> &nbsp; 
@@ -277,10 +218,8 @@
                             </select>
                         </span>
                     </td>
-                </tr>
-                <tr>
-                    <td class="height">
-                        <span class="spacing" id="select2">Status:</span> &nbsp; 
+                    <td>
+                        <span class="spacing" id="select2">Status:</span> &nbsp;  
                         <span class="spacing">
                             <select class="selection2">
                                 <option>Installed</option>
@@ -288,28 +227,34 @@
                             </select>
                         </span>
                     </td>
-                </tr>
-                <tr>
-                    <td class="height">
-                        <label class="Pre">
-                            <input type="checkbox" checked="checked" name="sameadr"> Pre-Ordered
-                        </label>
-                    </td>
-                </tr>
-                <tr>
                     <td>
-                        <button class="free" onclick="myfonction" >Free trial</button>
+                        <span class="spacing" id="select2">Fridge Supported:</span> &nbsp;  
+                        <span class="spacing">
+                            <select class="selection2">
+                                <option>Kitchen Aid</option>
+                                <option>Inspired</option>
+                                <option>Kenmore</option>
+                                <option>Frigidaire</option>
+                                <option>Electrolux</option>
+                                <option>Amana</option>
+                                <option>Inspired Living</option>
+                                <option>Haier</option>
+                            </select>
+                        </span>
                     </td>
-                </tr>
-                <tr>
                     <td>
-                        <button class="order"><a id="style" href="checkout.html">Order Now</a></button>
+                        <span>
+                                <a href="checkout.html"><button class="free1" type="button"><span id="span1"></span>Order Now</button></a>
+                        </span>  
+
                     </td>
                 </tr>
+
                 <tr>
                     <td>
                         <span><img src="Images/unnamed.png" id="secure"></span> 
                         <a href="#" id="transaction">Secure transaction</a> 
+                        <span id="hide">.</span>
                     </td>
                 </tr>
             </table>
@@ -330,7 +275,43 @@
                     </svg>
                 </div>
             </div>
-
+            
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#">ABOUT US</a></li>
+                                <li><a href="#">OUR SERVICES</a></li>
+                                <li><a href="#">PRIVACY POLICY</a></li>
+                                <li><a href="#">AFFILIATE PROGRAM</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="footer-col">
+                            <h4>Get Help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">SHIPPING</a></li>
+                                <li><a href="#">RETURNS</a></li>
+                                <li><a href="#">ORDER STATUS</a></li>
+                            </ul>
+                        </div>
+                
+                            <div class="footer-col">
+                                <h4>Follow Us</h4>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            
             <script type="text/javascript">
                 var rating= document.querySelector("#rating")
                 var stats=document.querySelector(".start")
