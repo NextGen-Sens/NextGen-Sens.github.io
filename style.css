@@ -134,7 +134,7 @@ nav{
 	border-radius: 15px;
 	width: 99%;
 	height:100px;
-	margin-top: 2%;
+	margin-top: -23.7%;
 	margin-left: 0.3%;
 	float:left;
 	text-align: left;
@@ -235,7 +235,7 @@ div.trial{
 
 .footer{
 	position:absolute;
-	top:90%;
+	top:85%;
 	left: 0;
 	width: 100%;
 }
@@ -931,18 +931,17 @@ button{
 	position: relative;
 	border-radius: 100%;
 	border: 3px solid #196275;
-	z-index:2;
-	top:-16%;
-	left:58%;
+	top:-16px;
+	left:57%;
 }
 #photo2{
 
-	top:-140px;
-	left:0.1%;
+	top:-175px;
+	left:0;
 }
 #photo3{
-	top:-350px;
-	left:76%;
+	top:-390px;
+	left:74%;
 }
 .footer{
 	position: absolute;
