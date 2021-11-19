@@ -82,7 +82,8 @@ label {
     cursor: pointer;
     font-size: 17px;
     box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
-
+    text-align: center;
+    text-decoration: none;
 }
 
 .btn:hover {
