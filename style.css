@@ -928,20 +928,21 @@ button{
 #photo,
 #photo2,
 #photo3{
-	position: absolute;
+	position: relative;
 	border-radius: 100%;
 	border: 3px solid #196275;
-	top:70%;
-	left:22%;
+	z-index:2;
+	top:-16%;
+	left:58%;
 }
 #photo2{
 
-	top:75%;
-	left:1%;
+	top:-140px;
+	left:0.1%;
 }
 #photo3{
-	top:107%;
-	left:29%;
+	top:-350px;
+	left:76%;
 }
 .footer{
 	position: absolute;
