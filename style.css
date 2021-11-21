@@ -233,12 +233,7 @@ div.trial{
 	color:white;
 }
 
-.footer{
-	position:absolute;
-	top:85%;
-	left: 0;
-	width: 100%;
-}
+
 .info{
 	position: absolute;
 	top:77%;
@@ -947,7 +942,12 @@ button{
 	top:-390px;
 	left:74%;
 }
+.footer2{
+	width:100%;
+}
 .footer{
+	left:0;
+	width: 100%;
 	position: absolute;
 	top:140%;
 }
