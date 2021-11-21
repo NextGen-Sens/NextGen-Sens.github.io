@@ -134,9 +134,9 @@ nav{
 	border-radius: 15px;
 	width: 99%;
 	height:100px;
-	margin-top: 2%;
-	margin-left: 0.3%;
-	float:left;
+	position: relative;
+	top: -345px;
+	left:0.3%;
 	text-align: left;
 	color:white;
 	border-width: 2px;
@@ -235,7 +235,7 @@ div.trial{
 
 .footer{
 	position:absolute;
-	top:90%;
+	top:85%;
 	left: 0;
 	width: 100%;
 }
@@ -382,7 +382,7 @@ table.beta,
 	margin-top: 3.5%;
 	float: left;
 	width: 50%;
-	height: 500px;
+	margin-bottom: 8%;
 	padding: 10px,10px;
 	color:black;
 	background-color: #24262b;
@@ -928,20 +928,21 @@ button{
 #photo,
 #photo2,
 #photo3{
-	position: absolute;
+	position: relative;
 	border-radius: 100%;
 	border: 3px solid #196275;
-	top:70%;
-	left:22%;
+	top:-16px;
+	left:57%;
+	
 }
 #photo2{
 
-	top:75%;
-	left:1%;
+	top:-175px;
+	left:0;
 }
 #photo3{
-	top:107%;
-	left:29%;
+	top:-390px;
+	left:74%;
 }
 .footer{
 	position: absolute;
