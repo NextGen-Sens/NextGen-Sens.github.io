@@ -621,7 +621,7 @@ ul{
 	stroke-linecap: round;
 	stroke-width: .2rem;
 	border-radius: .2rem;
-	margin-left: 20%;
+	margin-left: 37%;
 	fill:none;
 	transform: scale(4);
 
@@ -899,6 +899,10 @@ button{
 #photo3{
 	top:-390px;
 	left:74%;
+}
+#proceed{
+	margin-top:25%;
+	margin-left:-40%;
 }
 .footer2{
 	width:100%;
