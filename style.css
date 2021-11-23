@@ -621,7 +621,7 @@ ul{
 	stroke-linecap: round;
 	stroke-width: .2rem;
 	border-radius: .2rem;
-	margin-left: 37%;
+	margin-left: 50%;
 	fill:none;
 	transform: scale(4);
 
@@ -902,7 +902,7 @@ button{
 }
 #proceed{
 	margin-top:25%;
-	margin-left:-40%;
+	margin-left:-55%;
 }
 .footer2{
 	width:100%;
