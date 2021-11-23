@@ -147,16 +147,6 @@ nav{
 }
 
 
-label.logo {
-	color: white;
-	font-size: 40px;
-	font-weight: bold;
-	line-height: 65px;
-	font-family: 'Times New Roman', Times, serif;
-	
-	
-	
-}
 
 #number:hover{
 	text-decoration: underline;
@@ -171,24 +161,6 @@ label.logo {
 	font-size: 20px;
 }
 
-.order{
-	border:none;
-	color:rgb(0, 16, 94);
-	background-color: rgb(203, 115, 0);
-	width: 60%;
-	height:50%;
-	line-height: 2px;
-	margin-left: 20%;
-	
-}
-
-.order:hover{
-	cursor: pointer;
-	background-color: rgb(202, 91, 0);
-	width: 61%;
-	height:51%;
-
-}
 
 div.trial{
 	font-weight: bold;
@@ -649,7 +621,7 @@ ul{
 	stroke-linecap: round;
 	stroke-width: .2rem;
 	border-radius: .2rem;
-	margin-left: 20%;
+	margin-left: 50%;
 	fill:none;
 	transform: scale(4);
 
@@ -928,14 +900,19 @@ button{
 	top:-390px;
 	left:74%;
 }
+#proceed{
+	margin-top:25%;
+	margin-left:-55%;
+}
 .footer2{
 	width:100%;
+	
 }
 .footer{
-	left:0;
-	width: 100%;
-	position: absolute;
-	top:140%;
+	left:-0.1%;
+	width: 100.2%;
+	margin-top: -270px;
+	position: relative;
 }
 .container {
 	max-width: 1170px;
@@ -954,7 +931,6 @@ button{
   .footer {
 	background-color: #24262b;
 	padding: 70px 0;
-	margin-top: 210px;
   }
   
   .footer-col {
@@ -1036,7 +1012,4 @@ button{
 	  margin-left: 30%;
 	}
   
-	.footer {
-	  margin-top: -100%;
-	}
   }
