@@ -331,13 +331,11 @@ table.beta,
 }
 
 #text1{
-	position: relative;
-	top:40px;
-	left:8.5%;
-	height: 500px;
+	margin-left: 8.5%;
+	margin-top: 3.5%;
 	float: left;
 	width: 50%;
-	margin-bottom: 8%;
+	height: 500px;
 	padding: 10px,10px;
 	color:black;
 	background-color: #24262b;
@@ -346,7 +344,6 @@ table.beta,
 	padding-left: 2%;
 	padding-top: 1%;
 	padding-right: 2%;
-	z-index:-1;
 
 }
 
@@ -683,6 +680,7 @@ tr.content{
 	font-size: 15px;
 	color:chocolate;
 	font-weight: bolder;
+
 }
 
 tr.tbod>td {
@@ -884,11 +882,15 @@ button{
 #photo,
 #photo2,
 #photo3{
-	position: relative;
+	position:relative;
 	border-radius: 100%;
 	border: 3px solid #196275;
 	top:-16px;
 	left:57%;
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 500px;
 	
 }
 #photo2{
